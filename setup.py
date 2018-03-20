@@ -13,7 +13,6 @@ setup(name='com.thatsuseful.PyTradier',
       license='GPLv3',
       packages=['PyTradier'],
       package_dir={'PyTradier':'PyTradier'},
-      install_requires=req,
       platforms=['any'],
       keywords=['tradier', 'options', 'stocks', 'thatsuseful'],
       classifiers=[
