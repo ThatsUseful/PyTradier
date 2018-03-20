@@ -2,10 +2,6 @@
 
 from distutils.core import setup
 
-# requirements
-with open('requirements.txt') as requirements:
-    req = [i.strip() for i in requirements]
-
 setup(name='com.thatsuseful.PyTradier',
       version='0.1.0',
       description='Tradier API wrappers',
