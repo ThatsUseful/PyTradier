@@ -13,10 +13,7 @@ from .exceptions import ClientException
 import os
 # from . import user
 
-
-
 class Tradier:
-
     def __init__(self, token, account_id=None, endpoint=None):
         """ Create an instance of the ``Tradier`` class. 
         
@@ -38,14 +35,8 @@ class Tradier:
         
         .. code-block:: python
         
-            print tradier.market.status()  # output: open
-        
-        
-        
-        
-        
+            print tradier.market.status()  # output: open                                    
         """
-
         os.environ["API_TOKEN"] = token  # create environment variable for all files to use
 
         if account_id is None:  # environment variables must me type str

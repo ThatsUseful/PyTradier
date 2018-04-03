@@ -27,8 +27,6 @@ class Company:
     def timesales(self, interval=None, start=None, end=None, sfilter=None):
         return TimeSales(self._symbol, interval, start, end, sfilter)
 
-
-
     # Tradier has not yet implemented the following functions
     # into their API:
 
