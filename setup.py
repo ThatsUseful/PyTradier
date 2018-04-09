@@ -6,7 +6,7 @@ from distutils.core import setup
 with open('requirements.txt') as requirements:
     req = [i.strip() for i in requirements]
 
-setup(name='com.thatsuseful.PyTradier',
+setup(name='PyTradier',
       version='0.1.0',
       description='Tradier API wrappers',
       author='R Leonard',      
