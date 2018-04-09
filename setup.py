@@ -16,6 +16,8 @@ setup(name='PyTradier',
       url='https://github.com/thatsuseful/PyTradier',
       license='GPLv3',
       install_requires=req,
+      packages=['pytradier', 'pytradier.account', 'pytradier.company', 'pytradier.market', 'pytradier.order',
+                'pytradier.securities', 'pytradier.user'],
       platforms=['any'],
       keywords=['tradier', 'options', 'stocks', 'thatsuseful'],
       classifiers=[
